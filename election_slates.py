@@ -6,19 +6,19 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'mjmurphy', 'sctoor', 'jpdoyle', 'dtv', 'hfernand'},
+    {'mjmurphy', 'sctoor', 'jpdoyle', 'hfernand'},
     # 1VP
-    {'dtv', 'afrieder', 'sctoor'},
+    {'dtv', 'jpdoyle', 'mjmurphy'},
     # 2VP
-    {'mjmurphy', 'jpdoyle'},
+    {'mjmurphy', 'jpdoyle', 'dtv'},
     # CorSec
-    {'mvarner', 'hfernand', 'dtv', 'afrieder'},
+    {'mvarner', 'dtv', 'kfair'},
     # RecSec
-    {'npostnik', 'hfernand'},
+    {'npostnik', 'hfernand', 'kfair'},
     # Treasurer
     {'jpdoyle', 'jpenick', 'dtv'},
     # S@A
-    {'npostnik', 'jpenick', 'cressel', 'nwalko', 'hernand', 'aslu'}
+    {'npostnik', 'jpenick', 'cressel', 'aslu'}
 ]
 
 # Due to tabs, names need to be less than 7 letters
