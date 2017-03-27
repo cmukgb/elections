@@ -6,35 +6,37 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'mjmurphy', 'sctoor', 'jpdoyle', 'hfernand'},
+    {'hfernand', 'dtv', 'dhreed', 'jpdoyle', 'asilverg'},
     # 1VP
-    {'dtv', 'jpdoyle', 'mjmurphy'},
+    {'jpdoyle', 'hfernand', 'dtv', 'kfair'},
     # 2VP
-    {'mjmurphy', 'jpdoyle', 'dtv'},
+    {'hfernand', 'igriswol', 'nrauen'},
     # CorSec
-    {'mvarner', 'dtv', 'kfair'},
+    {'hhausman', 'mrquinn', 'hfernand'},
     # RecSec
-    {'npostnik', 'hfernand', 'kfair'},
+    {'dhreed', 'igriswol', 'hhausman', 'hfernand'},
     # Treasurer
-    {'jpdoyle', 'jpenick', 'dtv'},
+    {'jpdoyle', 'cjwong', 'asilverg', 'jagu', 'hhausman'},
     # S@A
-    {'npostnik', 'jpenick', 'cressel', 'aslu'}
+    {'nrauen', 'cjwong', 'ekrakopo', 'dhreed', 'kthies', 'hfernand', 'asilverg'}
 ]
 
 # Due to tabs, names need to be less than 7 letters
 key = {
-    'mjmurphy': 'Murphy',
-    'sctoor': 'Skye',
+    'jagu': 'Joy',
     'jpdoyle': 'Joe',
+    'kfair': 'Rin',
+    'kthies': 'Kevin',
+    'mrquinn': 'Quinn',
+    'nrauen': 'Rauen',
+    'asilverg': 'Asher',
+    'cjwong': 'Cam',
+    'dhreed': 'Dez',
     'dtv': 'Dylan',
-    'afrieder': 'Fried',
-    'mvarner': 'Maddy',
-    'npostnik': 'Nika',
-    'jpenick': 'Jack',
-    'cressel': 'Cliff',
-    'aslu': 'Espy',
+    'ekrakopo': 'Kate',
     'hfernand': 'Harry',
-    'nwalko': 'Nathan'
+    'hhausman': 'Henry',
+    'igriswol': 'Ian',
 }
 
 empty = '______'
