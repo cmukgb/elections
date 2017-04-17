@@ -6,22 +6,21 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'hfernand', 'dtv', 'dhreed', 'jpdoyle', 'asilverg'},
+    {'hfernand', 'dtv', 'jpdoyle', 'asilverg'},
     # 1VP
     {'jpdoyle', 'hfernand', 'dtv', 'kfair', 'igriswol', 'mhthomps',
         'asilverg'},
     # 2VP
-    {'hfernand', 'igriswol', 'nrauen', 'asilverg'},
+    {'igriswol', 'nrauen', 'asilverg', 'mhthomps'},
     # CorSec
-    {'hhausman', 'mrquinn', 'mforsman', 'mhthomps', 'asilverg', 'hfernand'},
+    {'hhausman', 'mrquinn', 'mhthomps', 'asilverg', 'kfair', 'ekarkopo', 'axe'},
     # RecSec
-    {'dhreed', 'igriswol', 'hhausman', 'mhthomps', 'nrauen', 'axe', 'asilverg',
-        'hfernand'},
+    {'dhreed', 'igriswol', 'hhausman', 'mhthomps', 'nrauen', 'axe', 'asilverg'},
     # Treasurer
-    {'jpdoyle', 'cjwong', 'asilverg', 'jagu', 'hhausman'},
+    {'jpdoyle', 'cjwong', 'asilverg', 'hhausman'},
     # S@A
     {'nrauen', 'cjwong', 'ekrakopo', 'dhreed', 'kthies', 'asilverg',
-        'hhausman', 'hfernand'}
+        'hhausman', 'axe'}
 ]
 
 # Due to tabs, names need to be less than 7 letters
@@ -35,11 +34,9 @@ key = {
     'hfernand': 'Harry',
     'hhausman': 'Henry',
     'igriswol': 'Ian',
-    'jagu': 'Joy',
     'jpdoyle': 'Joe',
     'kfair': 'Rin',
     'kthies': 'Kevin',
-    'mforsman': 'Mady',
     'mhthomps': 'Matt',
     'mrquinn': 'Quinn',
     'nrauen': 'Rauen',
