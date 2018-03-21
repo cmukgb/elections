@@ -1,4 +1,4 @@
-# Usage: simply fill in noms and key
+# Usage: simply fill in noms
 
 from __future__ import print_function, division
 
@@ -23,27 +23,6 @@ noms = [
         'hhausman', 'axe'}
 ]
 
-# Due to tabs, names need to be less than 7 letters
-key = {
-    'asilverg': 'Asher',
-    'axe': 'Alka',
-    'cjwong': 'Cam',
-    'dhreed': 'Dez',
-    'dtv': 'Dylan',
-    'ekrakopo': 'Kate',
-    'hfernand': 'Harry',
-    'hhausman': 'Henry',
-    'igriswol': 'Ian',
-    'jpdoyle': 'Joe',
-    'kfair': 'Rin',
-    'kthies': 'Kevin',
-    'mhthomps': 'Matt',
-    'mrquinn': 'Quinn',
-    'nrauen': 'Rauen',
-}
-
-empty = '______'
-
 def remove(noms, person):
   return [nom - {person} for nom in noms]
 
@@ -57,20 +36,29 @@ def slates(noms):
     rem = noms[1:]
     return [[p] + r for p in pos for r in slates(remove(rem, p))]
 
-def print_slates(slates):
+def candidates(noms):
+  candidates = set()
+  for pos in noms:
+    candidates |= pos
+  return candidates
+
+def print_slates(slates, tab):
   for l in labels:
-    print(l, '\t', end='')
-  print('\n=======================================================')
+    print(l.ljust(tab), end='')
+  print('\n' + '='*7*tab)
   for slate in slates:
     for p in slate:
-      print(p, '\t', end='')
+      print(p.ljust(tab), end='')
     print('')
 
-results = [[key[p] if p in key else p for p in slate] for slate in slates(noms)]
+tab = len(max(candidates(noms), key=len)) + 2
+empty = '_'*(tab-4)
+
+results = [[p for p in slate] for slate in slates(noms)]
 good_slates = [slate for slate in results if empty not in slate]
 bad_slates = [slate for slate in results if empty in slate]
 
-print_slates(good_slates)
+print_slates(good_slates, tab)
 print(len(good_slates), 'full slates.')
 
 if len(bad_slates) == 0:
@@ -78,6 +66,6 @@ if len(bad_slates) == 0:
 else:
   print('')
   print('WARNING: Potentially empty slates:')
-  print_slates(bad_slates)
+  print_slates(bad_slates, tab)
   print(len(bad_slates), 'slates with empty positions.')
 
