@@ -6,7 +6,7 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'dhreed'},
+    {'dhreed', 'nrauen'},
     # 1VP
     {'nmongkol', 'liamt'},
     # 2VP
