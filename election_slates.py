@@ -16,7 +16,7 @@ noms = [
     # RecSec
     {'mwmccoy'},
     # Treasurer
-    {'liamt', 'jamesbyr'},
+    {'liamt', 'jamesbyr', 'nrauen'},
     # S@A
     {'kdulla', 'jamesbyr', 'mckennab', 'dhreed', 'gwhitney',
      'mwmccoy', 'mfy', 'vmyoung', 'nrauen', 'eseeser'}
