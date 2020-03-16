@@ -6,21 +6,19 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'dhreed', 'mwmccoy'},
+    {'kdulla', 'mwmccoy', 'spalsen', 'dhreed'},
     # 1VP
-    {'nmongkol', 'liamt'},
+    {'kmcarpen', 'kdulla'},
     # 2VP
-    {'mfy'},
+    {'kdulla', 'jamesbyr'},
     # CorSec
-    {'mckennab', 'mwmccoy', 'dhreed'},
+    {'kdulla', 'yicheng3', 'kmcarpen'},
     # RecSec
-    {'mwmccoy', 'mckennab', 'jamesbyr'},
+    {'spalsen', 'yicheng3'},
     # Treasurer
-    {'jamesbyr', 'kdulla'},
+    {'jamesbyr'},
     # S@A
-    {'kdulla', 'jamesbyr', 'mckennab', 'dhreed', 'gwhitney',
-     'mwmccoy', 'mfy', 'vmyoung', 'eseeser', 'liamt',
-     'nmongkol'}
+    {'spalsen', 'yicheng3'}
 ]
 
 def remove(noms, person):
