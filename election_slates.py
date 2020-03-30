@@ -10,7 +10,7 @@ noms = [
     # 1VP
     {'kmcarpen', 'kdulla', 'jamesbyr'},
     # 2VP
-    {'kdulla', 'jamesbyr', 'mwmccoy'},
+    {'kdulla', 'jamesbyr', 'mwmccoy', 'yicheng3', 'kmcarpen'},
     # CorSec
     {'kdulla', 'yicheng3', 'kmcarpen', 'mwmccoy'},
     # RecSec
