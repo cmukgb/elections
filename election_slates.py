@@ -6,17 +6,17 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'kmcarpen', 'kevinson', 'zhengham', 'chood'},
+    {'kmcarpen', 'kevinson', 'zhengham', 'chood', 'jbyrnes'},
     # 1VP
     {'jbyrnes', 'kevinson', 'chood'},
     # 2VP
     {'kevinson', 'chood'},
     # CorSec
-    {'kevinson', 'chood'},
+    {'kevinson', 'chood', 'ishaw'},
     # RecSec
-    {'kevinson', 'chood', 'jholz'},
+    {'kevinson', 'chood', 'jholz', 'ishaw'},
     # Treasurer
-    {'kevinson', 'chood'},
+    {'kevinson', 'chood', 'zhengham'},
     # S@A
     {'jbyrnes', 'kevinson', 'zhengham', 'pposadas', 'ishaw', 'jholz',
      'kmcarpen', 'chood', 'eplin'}
