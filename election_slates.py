@@ -10,13 +10,13 @@ noms = [
     # 1VP
     {'jbyrnes', 'kevinson', 'chood'},
     # 2VP
-    {'kevinson', 'chood'},
+    {'kevinson', 'chood', 'zhengham'},
     # CorSec
     {'kevinson', 'chood', 'ishaw'},
     # RecSec
     {'kevinson', 'chood', 'jholz', 'ishaw'},
     # Treasurer
-    {'kevinson', 'chood', 'zhengham'},
+    {'kevinson', 'chood', 'zhengham', 'pposadas'},
     # S@A
     {'jbyrnes', 'kevinson', 'zhengham', 'pposadas', 'ishaw', 'jholz',
      'kmcarpen', 'chood', 'eplin'}
