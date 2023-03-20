@@ -12,14 +12,15 @@ noms = [
     # 2VP
     {'kevinson', 'zhengham', 'asueiro'},
     # CorSec
-    {'kevinson', 'jholz', 'ishaw', 'djyin', 'eplin', 'nkeck', 'zhengham'},
+    {'kevinson', 'jholz', 'ishaw', 'djyin', 'eplin', 'nkeck', 'zhengham',
+     'apourkav'},
     # RecSec
     {'asueiro', 'rtrosten', 'djyin', 'eplin', 'apourkav', 'jholz'},
     # Treasurer
     {'kevinson', 'apourkav', 'nkeck', 'djyin', 'jholz', 'rtrosten'},
     # S@A
     {'kevinson', 'eplin', 'jbyrnes', 'kgurusha', 'djyin', 'minjael4',
-     'apourkav', 'rtrosten', 'nkeck', 'zhengham'},
+     'apourkav', 'rtrosten', 'nkeck', 'zhengham', 'jholz'}
 ]
 
 def remove(noms, person):
