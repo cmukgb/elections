@@ -15,12 +15,13 @@ noms = [
     {'kevinson', 'jholz', 'ishaw', 'djyin', 'eplin', 'nkeck', 'zhengham',
      'apourkav'},
     # RecSec
-    {'asueiro', 'rtrosten', 'djyin', 'eplin', 'apourkav', 'jholz', 'minjael4'},
+    {'rtrosten', 'djyin', 'eplin', 'apourkav', 'jholz', 'minjael4'},
     # Treasurer
     {'kevinson', 'apourkav', 'nkeck', 'djyin', 'jholz', 'rtrosten', 'eplin'},
     # S@A
     {'kevinson', 'eplin', 'jbyrnes', 'kgurusha', 'djyin', 'minjael4',
-     'apourkav', 'rtrosten', 'nkeck', 'zhengham', 'jholz', 'asueiro'}
+     'apourkav', 'rtrosten', 'nkeck', 'zhengham', 'jholz', 'asueiro',
+     'ccrawfor', 'ishaw'}
 ]
 
 def remove(noms, person):
