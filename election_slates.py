@@ -6,22 +6,24 @@ labels = ['Pres', '1VP', '2VP', 'CorSec', 'RecSec', 'Treas', 'S@A']
 
 noms = [
     # President
-    {'kevinson', 'jbyrnes', 'minjael4', 'zhengham', 'ishaw'},
+    {'kevinson', 'minjael4', 'zhengham', 'ishaw', 'asueiro', 'jholz'},
     # 1VP
-    {'kevinson', 'jbyrnes', 'asueiro', 'eplin', 'apourkav'},
+    {'kevinson', 'asueiro', 'eplin', 'apourkav'},
     # 2VP
     {'kevinson', 'zhengham', 'asueiro'},
     # CorSec
     {'kevinson', 'jholz', 'ishaw', 'djyin', 'eplin', 'nkeck', 'zhengham',
      'apourkav'},
     # RecSec
-    {'rtrosten', 'djyin', 'eplin', 'apourkav', 'jholz', 'minjael4'},
+    {'rtrosten', 'djyin', 'eplin', 'apourkav', 'jholz', 'minjael4',
+     'zhengham'},
     # Treasurer
-    {'kevinson', 'apourkav', 'nkeck', 'djyin', 'jholz', 'rtrosten', 'eplin'},
+    {'kevinson', 'apourkav', 'nkeck', 'djyin', 'jholz', 'rtrosten', 'eplin',
+     'skroneme'},
     # S@A
-    {'kevinson', 'eplin', 'jbyrnes', 'kgurusha', 'djyin', 'minjael4',
-     'apourkav', 'rtrosten', 'nkeck', 'zhengham', 'jholz', 'asueiro',
-     'ccrawfor', 'ishaw'}
+    {'kevinson', 'eplin', 'kgurusha', 'djyin', 'minjael4', 'apourkav',
+     'rtrosten', 'nkeck', 'zhengham', 'jholz', 'asueiro', 'ccrawfor', 'ishaw',
+     'dorisy', 'skroneme'}
 ]
 
 def remove(noms, person):
