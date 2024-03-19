@@ -14,11 +14,11 @@ noms = [
     # CorSec
     {'djyin', 'ngaynor', 'bennerr'},
     # RecSec
-    {'djyin', 'ngaynor'},
+    {'djyin', 'ngaynor', 'jholz'},
     # Treasurer
-    {'djyin'},
+    {'djyin', 'bennerr', 'jholz', 'ngaynor'},
     # S@A
-    {'bennerr', 'djyin', 'ngaynor', 'jholz'}
+    {'bennerr', 'djyin', 'ngaynor', 'jholz', 'vsaige'}
 ]
 
 def remove(noms, person):
