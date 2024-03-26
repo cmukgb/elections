@@ -8,17 +8,17 @@ noms = [
     # President
     {'djyin', 'jholz'},
     # 1VP
-    {'djyin', 'bennerr'},
+    {'djyin', 'bennerr', 'eplin'},
     # 2VP
     {'eplin', 'ngaynor'},
     # CorSec
-    {'djyin', 'ngaynor', 'bennerr'},
+    {'djyin', 'ngaynor', 'bennerr', 'evj', 'eplin'},
     # RecSec
-    {'djyin', 'ngaynor', 'jholz'},
+    {'djyin', 'ngaynor', 'jholz', 'bennerr'},
     # Treasurer
-    {'djyin', 'bennerr', 'jholz', 'ngaynor'},
+    {'djyin', 'bennerr', 'jholz', 'ngaynor', 'eplin'},
     # S@A
-    {'bennerr', 'djyin', 'ngaynor', 'jholz', 'vsaige'}
+    {'bennerr', 'djyin', 'ngaynor', 'jholz', 'vsaige', 'eplin', 'noahking'}
 ]
 
 def remove(noms, person):
